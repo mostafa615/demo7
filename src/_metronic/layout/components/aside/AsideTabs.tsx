@@ -9,7 +9,7 @@ const tabs: ReadonlyArray<{link: string; icon: string; tooltip: string}> = [
     link: 'projects',
     icon: 'element-11',
     tooltip: 'Projects',
-  },
+   },
   {
     link: 'menu',
     icon: 'briefcase',
@@ -67,8 +67,10 @@ const AsideTabs: FC<Props> = ({link, setLink}) => (
             onClick={() => setLink(t.link)}
           >
             <KTIcon iconName={t.icon} className='fs-2x' />
-            <h1>ddd</h1>
+            <br/> 
+            
           </a>
+ 
           {/* end::Nav link */}
          
         </li>
