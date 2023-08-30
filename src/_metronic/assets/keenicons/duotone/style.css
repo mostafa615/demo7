@@ -8803,3 +8803,10 @@
 .ki-duotone i {
   font-style: normal;
 }
+
+ul#kt_aside_nav_tabs li h1 {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+

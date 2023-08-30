@@ -59,6 +59,7 @@ const AsideTabs: FC<Props> = ({link, setLink}) => (
         <li key={t.link}>
         
           {/* begin::Nav link */}
+          
           <a
             className={clsx(
               'nav-link btn btn-icon btn-active-color-primary btn-color-gray-400 btn-active-light',
@@ -67,9 +68,12 @@ const AsideTabs: FC<Props> = ({link, setLink}) => (
             onClick={() => setLink(t.link)}
           >
             <KTIcon iconName={t.icon} className='fs-2x' />
-            <h1>ddd</h1>
+            
           </a>
           {/* end::Nav link */}
+
+          <h1>ddd</h1>
+          
          
         </li>
       ))}
